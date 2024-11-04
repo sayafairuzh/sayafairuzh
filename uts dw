@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Crystal Clear Sound Performance | FairuzhBliss</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__logo">
+        <a href="#" class="logo">FairuzhBliss<span>.</span></a>
+      </div>
+      <div class="nav__search" id="nav-search">
+        <input type="text" placeholder="Search" />
+        <span><i class="ri-search-2-line"></i></span>
+      </div>
+    </nav>
+
+    <header class="header">
+      <div class="section_container header_container">
+        <div class="header__image">
+          <img src="gambar/speaker 1.jpg" alt="header" />
+        </div>
+        <div class="header__content">
+          <h3 class="section__subheader">Music speaks to the heart</h3>
+          <h1>Life's rhythm fades in the absence of music</h1>
+          <div class="header__btn">
+            <button class="btn">Visit the store</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="section_container feature_container">
+      <h3 class="section__subheader">Highlights</h3>
+      <h2 class="section__header">Global Sound Experience</h2>
+      <div class="feature__grid">
+        <div class="feature__card">
+          <div>.01</div>
+          <h4>Exceptional Audio Excellence</h4>
+          <p>
+            Immerse yourself in a realm of captivating sound with our speakers, designed to deliver unparalleled audio clarity.
+          </p>
+        </div>
+        <div class="feature__card">
+          <div>.02</div>
+          <h4>Personalized Audio Profiles</h4>
+          <p>
+            Tailor your listening experience to match different music genres and diverse cultural sounds from across the globe.
+          </p>
+        </div>
+        <div class="feature__card">
+          <div>.03</div>
+          <h4>Integration of Music Streaming</h4>
+          <p>
+            Discover a wide array of music from around the globe with effortless streaming integration.
+          </p>
+        </div>
+        <div class="feature__card">
+          <div>.04</div>
+          <h4>Audio Synchronization for Multiple Rooms</h4>
+          <p>
+            Experience seamless audio enjoyment throughout your home with synchronized multi-room sound.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <section class="music">
+      <div class="section_container music_container">
+        <div class="music__image">
+          <span>02</span>
+          <img src="gambar/speaker 2.jpg" alt="music" />
+        </div>
+        <div class="music__content">
+          <h2 class="section__header">Allow the rhythm of life to inspire you</h2>
+          <p>
+            Explore our unique collection of audio gear, instruments, and accessories designed to enhance your musical journey, feeding your spirit with each melody.
+          </p>
+          <div class="music__btn">
+            <button class="btn">Shop now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section_container client_container">
+      <h3 class="section__subheader">Client Testimonials</h3>
+      <h2 class="section__header">What Our Customers Are Saying</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <div class="client__card">
+              <span><i class="ri-double-quotes-r"></i></span>
+              <h4>Marianne Lee</h4>
+              <h5>Music Teacher</h5>
+              <p>
+                As a music educator, I constantly seek premium audio equipment to improve my students' educational experience. I am delighted by the sound quality and depth these speakers provide.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <span><i class="ri-double-quotes-r"></i></span>
+              <h4>Robert Andrew</h4>
+              <h5>DJ & Producer</h5>
+              <p>
+                These speakers have revolutionized my DJ performances and studio work. The sound quality is outstanding, enabling me to catch every nuance in my mixes perfectly. I can't picture performing without them.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <span><i class="ri-double-quotes-r"></i></span>
+              <h4>Sophia Martin</h4>
+              <h5>Interior Designer</h5>
+              <p>
+                I integrated these speakers into a recent home renovation project, and they surpassed my expectations. They not only provide exceptional sound quality, but their elegant design also fits seamlessly with any interior style.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="client__card">
+              <span><i class="ri-double-quotes-r"></i></span>
+              <h4>Anggun Fairuzh</h4>
+              <h5>Event Planner</h5>
+              <p>
+                I depend on high-quality audio gear to craft memorable experiences for my clients' occasions. These speakers provide outstanding sound performance and dependability, guaranteeing that each event is a tremendous success.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="discount">
+      <div class="section_container discount_container">
+        <img
+          src="gambar/speaker 3.jpg"
+          alt="discount-bg"
+          class="discount-bg"
+        />
+        <div class="discount__content">
+          <h2 class="section__header">Music is a manifestation of the soul</h2>
+          <p>
+            Explore the depths of human experience as harmonies blend with the core of our existence, expressing feelings too deep for words alone. From the soft murmur of a piano to the resounding crash of an orchestra, our products capture the true power and beauty of musical artistry.
+          </p>
+          <div class="discount__btn">
+            <button class="btn">Go to shop</button>
+          </div>
+        </div>
+        <div class="discount__image">
+          <img src="gambar/speaker 4.jpg" alt="discount" />
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section_container footer_container">
+        <ul class="footer__links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Product</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li class="footer__logo">
+            <a href="#" class="logo">FairuzhBliss<span>.</span></a>
+          </li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 FairuzhBliss. All rights reserved.
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
